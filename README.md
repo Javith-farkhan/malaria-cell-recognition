@@ -37,7 +37,7 @@ from tensorflow.keras import utils
 from tensorflow.keras import models
 from sklearn.metrics import classification_report,confusion_matrix
 import tensorflow as tf
-```python
+```
 
 ## OUTPUT
 
