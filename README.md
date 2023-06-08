@@ -1,4 +1,4 @@
-# EX06--Deep Neural Network for Malaria Infected Cell Recognition
+# EX08--Deep Neural Network for Malaria Infected Cell Recognition
 
 ## AIM:
 
@@ -6,11 +6,12 @@ To develop a deep neural network for Malaria infected cell recognition and to an
 
 ## Problem Statement and Dataset:
 Malaria dataset of 27,558 cell images with an equal number of parasitized and uninfected cells. A level-set based algorithm was applied to detect and segment the red blood cells. The images were collected and annotated by medical professionals.Here we build a convolutional neural network model that is able to classify the cells.
+
 ![image](https://github.com/NITHISH74/malaria-cell-recognition/assets/94164665/31067447-45e0-4100-8412-60ba20457615)
 
 ## Neural Network Model:
 
-![image](https://github.com/NITHISH74/malaria-cell-recognition/assets/94164665/4c16630b-3aa1-4d1c-b485-c4458261d575)
+![image](https://github.com/NITHISH74/malaria-cell-recognition/assets/94164665/b104128c-9889-4afe-9918-35fbe62ac401)
 ## DESIGN STEPS:
 
 ### STEP 1:
@@ -42,8 +43,8 @@ Fit the model and predict the sample input.
 
 ## PROGRAM:
 ```python
-### Developed By    : Javith farkhan S
-### Register Number : 212221240017
+### Developed By    : Nithishwar S
+### Register Number : 212221230071
 ```
 ```python
 import os
@@ -188,14 +189,17 @@ plt.show()
 ## OUTPUT:
 
 ### Training Loss, Validation Loss Vs Iteration Plot
-
+![image](https://github.com/NITHISH74/malaria-cell-recognition/assets/94164665/be0acdc6-2add-43fe-99b5-047f8adaed1e)
 ### Classification Report
 
+![image](https://github.com/NITHISH74/malaria-cell-recognition/assets/94164665/5ec447d4-fa8c-4fac-a826-da459e1e2aad)
 
 ### Confusion Matrix
 
+![image](https://github.com/NITHISH74/malaria-cell-recognition/assets/94164665/240bd2f8-88f7-44d1-a511-d8f8ed9ba40a)
 
 ### New Sample Data Prediction
+![image](https://github.com/NITHISH74/malaria-cell-recognition/assets/94164665/16097c7f-39c6-418f-be70-7dadd9f05afc)
 
 
 ## RESULT:
