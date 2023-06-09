@@ -177,7 +177,7 @@ list_dir=["uninfected","parasitized"]
 dir_=(random.choice(list_dir))
 para_img= imread(train_path+
                  '/'+dir_+'/'+
-                 os.listdir(train_path+'/'+dir_)[random.randint(0,100)])
+                 os.listdir(train_path+'/'+dir_)[random.randint(0,400)])
 img  = tf.convert_to_tensor(np.asarray(para_img))
 img = tf.image.resize(img,(130,130))
 img=img.numpy()
