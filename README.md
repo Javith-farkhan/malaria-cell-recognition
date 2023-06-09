@@ -159,6 +159,8 @@ results = model.fit(train_image_gen,epochs=4,
                              )
 losses = pd.DataFrame(model.history.history)
 losses[['loss','val_loss']].plot()
+losses[['accuracy','val_accuracy']].plot()
+
 
 model.evaluate(test_image_gen)
 pred_probabilities = model.predict(test_image_gen)
@@ -189,17 +191,29 @@ plt.show()
 ## OUTPUT:
 
 ### Training Loss, Validation Loss Vs Iteration Plot
-![image](https://github.com/NITHISH74/malaria-cell-recognition/assets/94164665/be0acdc6-2add-43fe-99b5-047f8adaed1e)
+
+![DL 8 1](https://github.com/Javith-farkhan/malaria-cell-recognition/assets/94296805/915e1a1a-8bc2-49ce-8fde-695f4d83226b)
+
+
+
+![DL 8 2](https://github.com/Javith-farkhan/malaria-cell-recognition/assets/94296805/2c3b6c47-f2fd-4839-b6dc-07e3ce88884e)
+
+
 ### Classification Report
 
-![image](https://github.com/NITHISH74/malaria-cell-recognition/assets/94164665/5ec447d4-fa8c-4fac-a826-da459e1e2aad)
+![DL 8 3](https://github.com/Javith-farkhan/malaria-cell-recognition/assets/94296805/8a5d83e6-f86a-4af9-a93f-c0404da2d328)
+
 
 ### Confusion Matrix
 
-![image](https://github.com/NITHISH74/malaria-cell-recognition/assets/94164665/240bd2f8-88f7-44d1-a511-d8f8ed9ba40a)
+![DL 8 4](https://github.com/Javith-farkhan/malaria-cell-recognition/assets/94296805/a4d23272-a6e0-4f35-8a24-72b3aba28079)
+
 
 ### New Sample Data Prediction
-![image](https://github.com/NITHISH74/malaria-cell-recognition/assets/94164665/16097c7f-39c6-418f-be70-7dadd9f05afc)
+
+
+
+
 
 
 ## RESULT:
